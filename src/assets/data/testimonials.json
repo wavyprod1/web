@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "authorName": "Artista Emergente",
+      "authorTitle": "Cantautore Pop",
+      "quote": "Collaborare è stato fantastico! Ha portato la mia canzone a un livello superiore con un mix pulito e potente che suona benissimo ovunque. Comunicazione eccellente!",
+      "screenshotUrl": "/images/testimonials/testimonial1.png"
+    },
+    {
+      "id": 2,
+      "authorName": "Podcaster Professionista",
+      "authorTitle": "Host di 'Tech Talks'",
+      "quote": "L'editing audio e il sound design per il mio podcast sono impeccabili. La qualità è aumentata notevolmente, rendendo l'ascolto molto più piacevole. Super consigliato!",
+      "screenshotUrl": "/images/testimonials/testimonial2.jpg"
+    },
+    {
+      "id": 3,
+      "authorName": "Band Indie Rock",
+      "authorTitle": "'The Electric Dreams'",
+      "quote": "Finalmente le nostre registrazioni suonano come volevamo! Il mastering ha dato quel tocco finale che cercavamo, rendendo il sound coeso e pronto per la distribuzione.",
+      "screenshotUrl": "/images/testimonials/testimonial3.webp"
+    }
+  ]

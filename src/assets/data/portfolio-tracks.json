@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "title": "Sunrise Groove",
+      "artist": "Synthwave Masters",
+      "genre": "Synthwave Pop",
+      "label": "Independent",
+      "roles": ["Producer", "Mixing", "Synth Programming"],
+      "audioSrc": "/audio/track1_sunrise_groove.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Echoes in the Void",
+      "artist": "Ambient Sphere",
+      "genre": "Ambient Electronic",
+      "label": "Aura Records",
+      "roles": ["Sound Design", "Mastering", "Arrangement"],
+      "audioSrc": "/audio/track2_echoes_void.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Concrete Jungle Beat",
+      "artist": "MC RhymeFlow",
+      "genre": "Hip Hop",
+      "label": "Urban Beats Collective",
+      "roles": ["Beatmaker", "Mixing"],
+      "audioSrc": "/audio/track3_concrete_jungle.mp3"
+    },
+    {
+      "id": 4,
+      "title": "The Final Stand (Score)",
+      "artist": "Indie Game Project 'Nebula'",
+      "genre": "Cinematic Score",
+      "label": "Game Soundtrack",
+      "roles": ["Composer", "Orchestration", "Mixing"],
+      "audioSrc": "/audio/track4_final_stand.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Garage Days",
+      "artist": "The Rusty Pickups",
+      "genre": "Indie Rock",
+      "label": "Demo",
+      "roles": ["Recording Engineer", "Mixing"],
+      "audioSrc": "/audio/track5_garage_days.mp3"
+    }
+  ]

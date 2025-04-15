@@ -1,0 +1,71 @@
+/* src/assets/css/custom-styles.css */
+
+/* Opzionale: Puoi tenere o rimuovere i layer se questo file */
+/* contiene SOLO definizioni di variabili :root */
+/* @layer primeui, custom; */
+/* @layer custom { */
+
+:root {
+    /* --- Colori Pastello Base (Light) --- */
+    --pastel-red-light:    #ffadad;
+    --pastel-orange-light: #ffd6a5;
+    --pastel-yellow-light: #fdffb6;
+    --pastel-green-light:  #caffbf;
+    --pastel-blue-light:   #a0c4ff;
+    --pastel-purple-light: #bdb2ff;
+    --pastel-pink-light:   #ffc6ff;
+    --pastel-text-light:   #343a40; /* Testo per contrasto su light */
+  
+    /* --- Colori Pastello Scuriti (Dark) --- */
+    --pastel-red-dark:    #a86464;
+    --pastel-orange-dark: #a8825d;
+    --pastel-yellow-dark: #a7a870;
+    --pastel-green-dark:  #7aa873;
+    --pastel-blue-dark:   #6a81a8;
+    --pastel-purple-dark: #776fa8;
+    --pastel-pink-dark:   #a87ca8;
+    --pastel-text-dark:   #f8f9fa; /* Testo per contrasto su dark */
+  
+    /* --- Gradiente a Bande Nette (Light) --- */
+    --pastel-rainbow-stripes-light: linear-gradient(90deg,
+      var(--pastel-red-light)    0%, var(--pastel-red-light)    14.28%,
+      var(--pastel-orange-light) 14.28%, var(--pastel-orange-light) 28.56%,
+      var(--pastel-yellow-light) 28.56%, var(--pastel-yellow-light) 42.84%,
+      var(--pastel-green-light)  42.84%, var(--pastel-green-light)  57.12%,
+      var(--pastel-blue-light)   57.12%, var(--pastel-blue-light)   71.40%,
+      var(--pastel-purple-light) 71.40%, var(--pastel-purple-light) 85.68%,
+      var(--pastel-pink-light)   85.68%, var(--pastel-pink-light)   100%
+    );
+  
+    /* --- Gradiente a Bande Nette (Dark) --- */
+    --pastel-rainbow-stripes-dark: linear-gradient(90deg,
+      var(--pastel-red-dark)    0%, var(--pastel-red-dark)    14.28%,
+      var(--pastel-orange-dark) 14.28%, var(--pastel-orange-dark) 28.56%,
+      var(--pastel-yellow-dark) 28.56%, var(--pastel-yellow-dark) 42.84%,
+      var(--pastel-green-dark)  42.84%, var(--pastel-green-dark)  57.12%,
+      var(--pastel-blue-dark)   57.12%, var(--pastel-blue-dark)   71.40%,
+      var(--pastel-purple-dark) 71.40%, var(--pastel-purple-dark) 85.68%,
+      var(--pastel-pink-dark)   85.68%, var(--pastel-pink-dark)   100%
+    );
+  
+
+
+
+    /* Aggiungi qui ALTRE variabili CSS globali se necessario in futuro */
+    /* Esempio: --mio-colore-brand: #abcdef; */
+  
+  } /* Chiusura :root */
+
+
+  
+  /* } */ /* Chiusura @layer custom opzionale */
+  
+  
+  /* ----------------------------------------------------- */
+  /* NESSUN'ALTRA REGOLA CSS QUI (nessun .pastel-rainbow-bg, etc.) */
+  /* ----------------------------------------------------- */
+
+  /* Abilita smooth scrolling per TUTTA la pagina */
+html {
+    scroll-behavior: smooth;
+  }
