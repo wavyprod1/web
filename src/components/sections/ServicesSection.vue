@@ -51,7 +51,7 @@
 
       <!-- Call to Action Button -->
       <div class="mt-6 text-center">
-        <CallToActionRainbowButton />
+        <CallToActionButton />
       </div>
     </div>
   </section>
@@ -60,7 +60,7 @@
 <script setup lang="ts">
 import Card from 'primevue/card'
 import Button from 'primevue/button'
-import CallToActionRainbowButton from '@/components/common/CallToActionRainbowButton.vue'
+import CallToActionRainbowButton from '@/components/common/CallToActionButton.vue'
 </script>
 
 <style scoped>
