@@ -3,7 +3,8 @@
     <Navbar />
 
     <main class="main-content">
-      <RouterView /> <!-- Qui viene renderizzata HomeView (o altre viste future) -->
+      <RouterView />
+      <!-- Qui viene renderizzata HomeView (o altre viste future) -->
     </main>
 
     <Footer />

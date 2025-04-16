@@ -7,10 +7,10 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
-    }
+      component: HomeView,
+    },
     // Qui potrai aggiungere altre rotte in futuro se necessario
-  ]
+  ],
 })
 
 export default router
